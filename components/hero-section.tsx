@@ -5,9 +5,9 @@ import Image from 'next/image'
 import { HeroHeader } from './header'
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
-import { Stack_Sans_Notch } from 'next/font/google'
+import { Caveat } from 'next/font/google'
 
-const hFont = Stack_Sans_Notch()
+const hFont = Caveat()
 
 export default function HeroSection() {
     return (
